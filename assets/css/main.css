@@ -3136,3 +3136,75 @@ input, select, textarea {
 					}
 
 	}
+
+	/* ============================= */
+/* People Page Styles */
+/* ============================= */
+
+.people-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* Category Titles */
+.category-title {
+    font-size: 24px;
+    color: #483949;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin: 40px 0 20px;
+}
+
+/* Grid Layout for People */
+.people-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual Profile Box */
+.person {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.person h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #483949;
+}
+
+.person p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Email Link */
+.person a {
+    color: #df7366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.person a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .people-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .person {
+        width: 90%;
+    }
+}
