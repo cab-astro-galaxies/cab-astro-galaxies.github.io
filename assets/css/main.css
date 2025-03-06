@@ -3222,4 +3222,16 @@ input, select, textarea {
         width: 90%;
         margin: auto;
     }
+/* Separator Line Between People */
+.person {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd; /* Light grey line */
+}
+
+/* Remove the line from the last person in each section */
+.people-grid .person:last-child {
+    border-bottom: none;
+}
 }
