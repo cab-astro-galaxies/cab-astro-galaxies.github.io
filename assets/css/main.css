@@ -3237,24 +3237,3 @@ input, select, textarea {
 .people-grid .person:last-child {
     border-bottom: none;
 }
-
-/* Reduce the height of the header */
-#header {
-    padding: 10px 0; /* Reduce top and bottom padding */
-    height: auto; /* Let it adjust dynamically */
-}
-
-/* Reduce the font size of the navigation menu */
-#nav ul {
-    font-size: 14px; /* Smaller font size for menu items */
-}
-
-#nav ul li {
-    padding: 5px 10px; /* Reduce padding around menu items */
-}
-
-/* Reduce the page title size */
-.page-title {
-    font-size: 22px; /* Smaller text */
-    margin-bottom: 20px; /* Less space below */
-}
