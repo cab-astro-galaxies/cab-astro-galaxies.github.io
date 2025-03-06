@@ -3137,47 +3137,50 @@ input, select, textarea {
 
 	}
 
-/* ============================= */
-/* Improved People Page Styles */
-/* ============================= */
+	/* ==================== */
+/* Updated People Page Layout */
+/* ==================== */
 
-.people-container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 40px 20px;
-}
-
-/* Section Titles */
-.category-title {
-    font-size: 20px; /* Smaller font size */
+/* Center the Main Title */
+.page-title {
+    text-align: center;
+    font-size: 28px;
     font-weight: bold;
     color: #483949;
-    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Left Align Section Titles */
+.category-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #483949;
+    text-align: left; /* Align to the left */
     border-bottom: 2px solid #ddd;
     padding-bottom: 10px;
     margin: 40px 0 20px;
 }
 
-/* Grid Layout */
+/* List Profiles in a Vertical Column */
 .people-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
     gap: 20px;
-    justify-content: center;
 }
 
-/* Individual Profile Box */
+/* Profile Box */
 .person {
     background: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 100%; /* Ensure full width */
 }
 
 /* Profile Picture */
 .person img {
-    width: 100px; /* Adjust image size */
+    width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
@@ -3212,7 +3215,7 @@ input, select, textarea {
 /* Responsive Design */
 @media (max-width: 768px) {
     .people-grid {
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
 
     .person {
