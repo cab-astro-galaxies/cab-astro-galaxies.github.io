@@ -3188,17 +3188,9 @@ input, select, textarea {
 }
 
 /* Arrange photo and text horizontally */
-/* Arrange photo and text horizontally */
 .person {
     display: flex;
     align-items: center;
-    text-align: left; /* Align text to the left */
-}
-
-/* Text Container */
-.person-info {
-    display: flex;
-    flex-direction: column; /* Stack name, research interests, email */
 }
 
 /* Name */
@@ -3235,6 +3227,7 @@ input, select, textarea {
         width: 90%;
         margin: auto;
     }
+}
 /* Separator Line Between People */
 .person {
     position: relative;
@@ -3246,7 +3239,4 @@ input, select, textarea {
 /* Remove the line from the last person in each section */
 .people-grid .person:last-child {
     border-bottom: none;
-}
-}
-
 }
