@@ -3213,6 +3213,8 @@ input, select, textarea {
     color: #df7366;
     text-decoration: none;
     font-weight: bold;
+	font-size: 12px;
+
 }
 
 .person a:hover {
