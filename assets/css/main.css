@@ -3171,10 +3171,12 @@ input, select, textarea {
 /* Profile Box */
 .person {
     background: white;
-    padding: 20px;
+	display: flex;
+    align-items: center;
+    padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+	flex-direction: column; /* Stack items */
+    align-items: flex-start; /* Align text to the left */;
     width: 100%; /* Ensure full width */
 }
 
@@ -3185,12 +3187,6 @@ input, select, textarea {
     border-radius: 50%; /* Optional: Makes it round */
     object-fit: cover; /* Ensures the image fits well */
     margin-right: 10px; /* Adds space between photo and text */
-}
-
-/* Arrange photo and text horizontally */
-.person {
-    display: flex;
-    align-items: center;
 }
 
 /* Name */
