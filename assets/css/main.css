@@ -3137,19 +3137,20 @@ input, select, textarea {
 
 	}
 
-	/* ============================= */
-/* People Page Styles */
+/* ============================= */
+/* Improved People Page Styles */
 /* ============================= */
 
 .people-container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     padding: 40px 20px;
 }
 
-/* Category Titles */
+/* Section Titles */
 .category-title {
-    font-size: 24px;
+    font-size: 20px; /* Smaller font size */
+    font-weight: bold;
     color: #483949;
     text-align: center;
     border-bottom: 2px solid #ddd;
@@ -3157,12 +3158,12 @@ input, select, textarea {
     margin: 40px 0 20px;
 }
 
-/* Grid Layout for People */
+/* Grid Layout */
 .people-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
     gap: 20px;
+    justify-content: center;
 }
 
 /* Individual Profile Box */
@@ -3171,18 +3172,29 @@ input, select, textarea {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
     text-align: center;
 }
 
+/* Profile Picture */
+.person img {
+    width: 100px; /* Adjust image size */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #df7366;
+}
+
+/* Name */
 .person h3 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 5px;
     color: #483949;
 }
 
+/* Research Interests */
 .person p {
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 5px;
 }
 
@@ -3200,11 +3212,11 @@ input, select, textarea {
 /* Responsive Design */
 @media (max-width: 768px) {
     .people-grid {
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: 1fr;
     }
 
     .person {
         width: 90%;
+        margin: auto;
     }
 }
