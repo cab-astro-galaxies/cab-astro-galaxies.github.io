@@ -3199,17 +3199,23 @@ input, select, textarea {
     font-size: 18px;
     margin-bottom: 5px;
     color: #483949;
-	justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-.job-title {
-    font-size: 14px;
-    color: #777;  /* Light gray color */
-    font-weight: normal;
-    margin-left: auto; /* Pushes text to the right */
 }
 
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #483949;
+    margin-bottom: 5px;
+}
+
+/* Job Title on the Right */
+.job-title {
+    font-size: 14px;
+    color: #777; /* Light gray */
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
 /* Research Interests */
 .person p {
     font-size: 14px;
