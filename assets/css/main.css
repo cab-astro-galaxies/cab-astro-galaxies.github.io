@@ -3198,12 +3198,12 @@ input, select, textarea {
     color: #483949;
 
 /* Research Interests */
-.person .p {
+.person p {
     font-size: 13px;
     margin-bottom: 5px; /* Space between research interests and email */
     color: #5b5b5b;
 
-	.person .a {
+	.person a {
 		font-size: 13px;
 		color: #df7366;
 		text-decoration: none;
