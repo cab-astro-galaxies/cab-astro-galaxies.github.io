@@ -3234,4 +3234,19 @@ input, select, textarea {
 .people-grid .person:last-child {
     border-bottom: none;
 }
+
+/* Adjust photo size */
+.person img {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Keep it square */
+    border-radius: 50%; /* Optional: Makes the image round */
+    object-fit: cover; /* Ensures the image is well-fitted */
+    margin-right: 15px; /* Adds space between photo and text */
+}
+
+/* Arrange photo and text horizontally */
+.person {
+    display: flex;
+    align-items: center;
+}
 }
