@@ -3199,9 +3199,17 @@ input, select, textarea {
     font-size: 18px;
     margin-bottom: 5px;
     color: #483949;
-	justify-content: space-between; /* Pushes job title to the right */
+	justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+.person h3 span {
+    font-size: 14px;  /* Adjust size */
+    font-weight: normal;
+    color: #777;  /* Light gray */
+    margin-left: auto; /* Push to the right */
+    padding-left: 10px;
 }
 
 /* Research Interests */
