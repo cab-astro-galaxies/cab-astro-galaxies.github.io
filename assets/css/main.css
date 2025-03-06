@@ -3181,7 +3181,7 @@ input, select, textarea {
     align-items: center;
     padding: 10px;
     border-radius: 10px;
-	flex-direction: row; /* Stack items */
+	flex-direction: column; /* Stack items */
     align-items: flex-start; /* Align text to the left */;
     width: 100%; /* Ensure full width */
 }
