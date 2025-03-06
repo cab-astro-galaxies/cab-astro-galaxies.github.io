@@ -3137,7 +3137,7 @@ input, select, textarea {
 
 	}
 
-	/* ==================== */
+/* ==================== */
 /* Updated People Page Layout */
 /* ==================== */
 
@@ -3180,8 +3180,8 @@ input, select, textarea {
 
 /* Profile Picture */
 .person img {
-    width: 50px;  /* Reduce the width */
-    height: 50px; /* Reduce the height */
+    width: 50px;  
+    height: 50px; 
     border-radius: 50%; /* Optional: Makes it round */
     object-fit: cover; /* Ensures the image fits well */
     margin-right: 10px; /* Adds space between photo and text */
