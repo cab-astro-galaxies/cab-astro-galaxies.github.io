@@ -3161,6 +3161,12 @@ input, select, textarea {
     margin: 40px 0 20px;
 }
 
+.text-content {
+    display: flex;
+    flex-direction: column; /* Stack text vertically */
+    align-items: flex-start; /* Align text to the left */
+}
+
 /* List Profiles in a Vertical Column */
 .people-grid {
     display: flex;
@@ -3175,7 +3181,7 @@ input, select, textarea {
     align-items: center;
     padding: 10px;
     border-radius: 10px;
-	flex-direction: column; /* Stack items */
+	flex-direction: row; /* Stack items */
     align-items: flex-start; /* Align text to the left */;
     width: 100%; /* Ensure full width */
 }
