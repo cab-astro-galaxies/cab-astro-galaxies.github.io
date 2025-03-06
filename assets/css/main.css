@@ -3213,7 +3213,7 @@ input, select, textarea {
     color: #df7366;
     text-decoration: none;
     font-weight: bold;
-	font-size: 12px;
+	font-size: 14px;
 
 }
 
@@ -3244,6 +3244,3 @@ input, select, textarea {
 .people-grid .person:last-child {
     border-bottom: none;
 } 
-.person p:last-child {
-    font-size: 12px; /* Adjust as needed */
-}
