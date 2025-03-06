@@ -3187,8 +3187,8 @@ input, select, textarea {
 
 /* Profile Picture */
 .person img {
-    width: 100px;  
-    height: 100px; 
+    width: 120px;  
+    height: 120px; 
     border-radius: 50%; /* Optional: Makes it round */
     object-fit: cover; /* Ensures the image fits well */
     margin-right: 10px; /* Adds space between photo and text */
