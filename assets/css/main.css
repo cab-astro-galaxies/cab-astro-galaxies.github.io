@@ -3180,12 +3180,17 @@ input, select, textarea {
 
 /* Profile Picture */
 .person img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    border: 2px solid #df7366;
+    width: 50px;  /* Reduce the width */
+    height: 50px; /* Reduce the height */
+    border-radius: 50%; /* Optional: Makes it round */
+    object-fit: cover; /* Ensures the image fits well */
+    margin-right: 10px; /* Adds space between photo and text */
+}
+
+/* Arrange photo and text horizontally */
+.person {
+    display: flex;
+    align-items: center;
 }
 
 /* Name */
@@ -3235,18 +3240,4 @@ input, select, textarea {
     border-bottom: none;
 }
 
-/* Adjust photo size */
-.person img {
-    width: 80px; /* Adjust size as needed */
-    height: 80px; /* Keep it square */
-    border-radius: 50%; /* Optional: Makes the image round */
-    object-fit: cover; /* Ensures the image is well-fitted */
-    margin-right: 15px; /* Adds space between photo and text */
-}
-
-/* Arrange photo and text horizontally */
-.person {
-    display: flex;
-    align-items: center;
-}
 }
