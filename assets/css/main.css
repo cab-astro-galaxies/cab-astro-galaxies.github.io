@@ -3158,7 +3158,7 @@ input, select, textarea {
     text-align: left; /* Align to the left */
     border-bottom: 2px solid #ddd;
     padding-bottom: 10px;
-    margin: 40px 0 20px;
+	margin-left: 10px
 }
 
 .text-content {
@@ -3196,14 +3196,14 @@ input, select, textarea {
 
 /* Name */
 .person h3 {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 5px;
     color: #483949;
 }
 
 /* Research Interests */
 .person p {
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 5px;
 }
 
