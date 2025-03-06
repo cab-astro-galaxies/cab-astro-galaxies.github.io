@@ -3170,10 +3170,13 @@ input, select, textarea {
 
 /* Profile Box */
 .person {
-    display: flex; /* Align photo and text in a row */
-    align-items: center; /* Align vertically */
-    gap: 15px; /* Space between photo and text */
-    text-align: left; /* Ensure text is aligned properly */
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%; /* Ensure full width */
+}
 
 /* Profile Picture */
 .person img {
@@ -3183,32 +3186,32 @@ input, select, textarea {
     object-fit: cover; /* Ensures the image fits well */
     margin-right: 10px; /* Adds space between photo and text */
 }
-/* Text container to stack name, research interests, and email */
-.person .text-container {
+
+/* Arrange photo and text horizontally */
+.person {
     display: flex;
-    flex-direction: column; /* Stack text vertically */
-    align-items: flex-start; /* Align text to the left */
+    align-items: center;
 }
 
 /* Name */
 .person h3 {
     font-size: 16px;
-    margin: 0 0 5px 0; /* Small spacing below */
-    font-weight: bold;
+    margin-bottom: 5px;
     color: #483949;
+}
 
 /* Research Interests */
 .person p {
     font-size: 13px;
-    margin-bottom: 5px; /* Space between research interests and email */
-    color: #5b5b5b;
+    margin-bottom: 5px;
+}
 
-	.person a {
-		font-size: 13px;
-		color: #df7366;
-		text-decoration: none;
-		font-weight: bold;
-	}
+/* Email Link */
+.person a {
+    color: #df7366;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 .person a:hover {
     text-decoration: underline;
@@ -3236,4 +3239,4 @@ input, select, textarea {
 /* Remove the line from the last person in each section */
 .people-grid .person:last-child {
     border-bottom: none;
-}
+} 
