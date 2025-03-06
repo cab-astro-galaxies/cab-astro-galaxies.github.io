@@ -3165,6 +3165,7 @@ input, select, textarea {
     display: flex;
     flex-direction: column; /* Stack text vertically */
     align-items: flex-start; /* Align text to the left */
+	flex: 1;
 }
 
 /* List Profiles in a Vertical Column */
@@ -3181,8 +3182,6 @@ input, select, textarea {
     align-items: center;
     padding: 10px;
     border-radius: 10px;
-	flex-direction: row; /* Stack items */
-    align-items: flex-start; /* Align text to the left */;
     width: 100%; /* Ensure full width */
 }
 
