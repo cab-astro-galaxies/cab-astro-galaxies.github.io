@@ -3201,20 +3201,6 @@ input, select, textarea {
     color: #483949;
 }
 
-.name {
-    font-size: 16px;
-    font-weight: bold;
-    color: #483949;
-    margin-bottom: 5px;
-}
-
-/* Job Title on the Right */
-.job-title {
-    font-size: 14px;
-    color: #777; /* Light gray */
-    position: absolute;
-    right: 10px;
-    top: 0;
 }
 /* Research Interests */
 .person p {
