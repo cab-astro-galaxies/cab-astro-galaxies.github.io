@@ -3165,7 +3165,7 @@ input, select, textarea {
 .people-grid {
     display: flex;
     flex-direction: column; /* Stack items vertically */
-    gap: 20px;
+    gap: 5px;
 }
 
 /* Profile Box */
