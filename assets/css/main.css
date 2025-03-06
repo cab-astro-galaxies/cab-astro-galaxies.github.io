@@ -3203,13 +3203,11 @@ input, select, textarea {
     align-items: center;
     width: 100%;
 }
-
-.person h3 span {
-    font-size: 14px;  /* Adjust size */
+.job-title {
+    font-size: 14px;
+    color: #777;  /* Light gray color */
     font-weight: normal;
-    color: #777;  /* Light gray */
-    margin-left: auto; /* Push to the right */
-    padding-left: 10px;
+    margin-left: auto; /* Pushes text to the right */
 }
 
 /* Research Interests */
