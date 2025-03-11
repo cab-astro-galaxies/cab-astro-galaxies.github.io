@@ -3237,7 +3237,7 @@ input, select, textarea {
     position: relative;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    border-bottom: 1px solid #ddd; /* Light grey line */
+    border-bottom: 1px solid #fff; /* Light grey line */
 }
 
 /* Remove the line from the last person in each section */
