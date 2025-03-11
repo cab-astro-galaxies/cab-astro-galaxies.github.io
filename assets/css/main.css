@@ -3235,8 +3235,8 @@ input, select, textarea {
 /* Separator Line Between People */
 .person {
     position: relative;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
     border-bottom: 1px solid #fff; /* Light white line */
 }
 
